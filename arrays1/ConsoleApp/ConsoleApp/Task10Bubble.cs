@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task9Bubble
+    class Task10Bubble
     {
         static public int[] SortByBubble(int[] array)
         {
@@ -14,7 +14,7 @@ namespace ConsoleApp
             {
                 for (int i = 0; i < j - 1; i++)
                 {
-                    if (array[i] > array[i + 1])
+                    if (array[i] < array[i + 1])
                     {
                         tmp = array[i];
                         array[i] = array[i + 1];
