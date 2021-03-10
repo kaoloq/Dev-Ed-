@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task1
+    public static class Task1
     {
-        static public int FindMin(int[] array)
+         public static int FindMin(int[] array)
         {
             int min = array[0];
             for (int i = 1; i < array.Length; i++)

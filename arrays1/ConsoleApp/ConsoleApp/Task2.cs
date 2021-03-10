@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task2
+    public static class Task2
     {
-        static public int FindMax(int[] array)
+        public static int FindMax(int[] array)
         {
             int max = array[0];
             for (int i = 1; i < array.Length; i++)

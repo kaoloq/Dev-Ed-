@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task9Insert
+    public static class Task9Insert
     {
-        static public int[] SortByInsert(int[] array)
+        public static int[] SortByInsert(int[] array)
         {
             int tmp;
             for (int i = 1; i < array.Length; i++)

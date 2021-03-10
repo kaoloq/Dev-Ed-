@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task6
+    public static class Task6
     {
-        static public int[] Reverse(int[] array)
+        public static int[] Reverse(int[] array)
         {
             int tmp;
             for (int i = 0; i < array.Length / 2; i++)

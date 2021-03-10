@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task8
+    public static class Task8
     {
-        static public int[] SwapHalves(int[] array)
+        public static int[] SwapHalves(int[] array)
         {
             int middle = array.Length / 2;
             if (array.Length % 2 != 0)

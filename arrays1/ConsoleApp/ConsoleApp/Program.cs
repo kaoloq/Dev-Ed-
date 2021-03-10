@@ -28,15 +28,15 @@ namespace ConsoleApp
             Console.WriteLine($"test task #5 : {Task5.SumOfElementsWithOddIndexes(array)}");
             Console.Write("test task #5: ");
             PrintArray(Task6.Reverse(array));
-            Console.WriteLine($"test task #7 : {Task7.NumberOfOddElements(array)}");
+            Console.WriteLine($"test task #7 : {Task7.CountOfOddElements(array)}");
             Console.Write("test task #8 : ");
             PrintArray(Task8.SwapHalves(array));
-            Console.Write("test task #9 Buble: ");
-            PrintArray(Task9Bubble.SortByBubble(array));
             Console.Write("test task #9 Select: ");
             PrintArray(Task9Select.SortBySelect(array));
             Console.Write("test task #9 Insert: ");
             PrintArray(Task9Insert.SortByInsert(array));
+            Console.Write("test task #10 Buble: ");
+            PrintArray(Task10Bubble.SortByBubble(array));
 
         }
 

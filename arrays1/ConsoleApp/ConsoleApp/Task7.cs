@@ -4,20 +4,20 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task7
+    public static class Task7
     {
-        static public int NumberOfOddElements(int[] array)
+        public static int CountOfOddElements(int[] array)
         {
-            int number = 0;
+            int counter = 0;
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 != 0)
                 {
-                    number++;
+                    counter++;
                 }
             }
 
-            return number;
+            return counter;
         }
     }
 }

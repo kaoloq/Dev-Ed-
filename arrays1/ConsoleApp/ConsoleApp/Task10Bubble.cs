@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task10Bubble
+    public static class Task10Bubble
     {
-        static public int[] SortByBubble(int[] array)
+        public static int[] SortByBubble(int[] array)
         {
             int tmp;
             int j = array.Length;
