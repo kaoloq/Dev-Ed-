@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp1
 {
-    class Task1
+    public static class Task1
     {
         public static int FindMin(int[,] array) 
         {

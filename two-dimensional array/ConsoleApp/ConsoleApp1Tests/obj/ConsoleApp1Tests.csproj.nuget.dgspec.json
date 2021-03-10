@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp.Test\\ConsoleApp.Test.csproj": {}
+    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp.Test\\ConsoleApp.Test.csproj": {
+    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp.Test\\ConsoleApp.Test.csproj",
-        "projectName": "ConsoleApp.Test",
-        "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp.Test\\ConsoleApp.Test.csproj",
+        "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj",
+        "projectName": "ConsoleApp1Tests",
+        "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1Tests\\ConsoleApp1Tests.csproj",
         "packagesPath": "C:\\Users\\kushk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp.Test\\obj\\",
+        "outputPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kushk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
-                "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj"
+              "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj": {
+                "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
-        "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectName": "ConsoleApp1",
+        "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\kushk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\arrays1\\ConsoleApp\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kushk\\AppData\\Roaming\\NuGet\\NuGet.Config",
