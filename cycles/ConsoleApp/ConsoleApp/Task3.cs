@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task3
+    public static class Task3
     {
         public static int CountPositiveIntegers(int a)
         {
@@ -12,10 +12,15 @@ namespace ConsoleApp
            
             if(a <= 0)
             {
-                throw new Exception("a <= 0");
+                throw new ArithmeticException("a <= 0");
             }
 
-            return (int)Math.Sqrt(a);
+            int counter = (int)Math.Sqrt(a);
+
+            if (counter * counter == a)
+                return counter - 1;
+
+            return counter;
         }
     }
 }

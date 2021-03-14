@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task5
+    public static class Task5
     {
         public static int SumNumbersFromAToB(int a, int b)
         {

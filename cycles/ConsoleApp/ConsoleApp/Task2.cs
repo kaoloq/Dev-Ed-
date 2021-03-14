@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task2
+    public static class Task2
     {
         //Пользователь вводит 1 число (A). Вывести все числа от 1 до 1000, которые делятся на A.
 
@@ -12,7 +12,7 @@ namespace ConsoleApp
         {
             if(a < 1 || a > 1000)
             {
-                throw new Exception("Out of range");
+                throw new ArgumentOutOfRangeException("Out of range");
             }
 
             int[] array = new int[1000 / a];

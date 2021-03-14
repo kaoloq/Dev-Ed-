@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task8
+    public static class Task8
     {
         public static int BisectionMethod(int num)
         {
@@ -13,7 +13,7 @@ namespace ConsoleApp
             
             if(num < 1)
             {
-                throw new Exception("a < 1");
+                throw new ArgumentOutOfRangeException("a < 1");
             }
 
             int a = 1;

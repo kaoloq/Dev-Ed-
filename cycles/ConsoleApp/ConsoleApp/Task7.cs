@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task7
+    public static class Task7
     {
         public static int FindNodByEvklid(int a, int b)
         {

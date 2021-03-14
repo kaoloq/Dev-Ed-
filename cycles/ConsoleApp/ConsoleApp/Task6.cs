@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task6
+    public static class Task6
     {
         public static int Fibonacci(int n)
         {
@@ -14,7 +14,7 @@ namespace ConsoleApp
 
             if(n <= 0)
             {
-                throw new Exception("n < 0");
+                throw new ArgumentOutOfRangeException("n <= 0");
             }
 
             int first = 1;

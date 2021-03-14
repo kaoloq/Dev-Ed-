@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task4
+    public static class Task4
     {
         public static int FindNOD(int a)
         {
@@ -14,7 +14,7 @@ namespace ConsoleApp
                 a = Math.Abs(a);
             }
 
-            if(a == 0)
+            if(a == 0 || a == 1)
             {
                 return 0;
             }

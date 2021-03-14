@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task9 
+    public static class Task9 
     {
         public static int CountOddDigitsOfInt(int num)
         {
