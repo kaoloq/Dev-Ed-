@@ -12,13 +12,7 @@ namespace ConsoleApp.Tests
             int[,] expected = DoubleArrayMockTask6.GetExpected(MockNumber);
 
             int[,] actual = Task6.Transpose(array);
-
-          /*  for (int i = 0; i < expected.GetLength(0); i++)
-            {
-                for (int j = 0; j < expected.GetLength(1); j++) {
-                    Assert.AreEqual(expected[i, j], actual[i, j]);
-                }
-            }*/
+ 
             Assert.AreEqual(expected, actual);
         }
     }
