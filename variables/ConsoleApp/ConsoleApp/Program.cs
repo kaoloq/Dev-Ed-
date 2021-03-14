@@ -30,7 +30,8 @@ namespace ConsoleApp
             double a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Write B: ");
             double b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(Task2.SwapAB(a, b));
+            Task2.SwapAB(ref a, ref b);
+            Console.WriteLine($"a = {a}  b = {b}");
         }
 
 

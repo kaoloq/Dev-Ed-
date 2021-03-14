@@ -4,14 +4,14 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task4
+    public static class Task4
     {
         public static double SolveLinearEquation(int a, int b, int c)
         {
             if (a == 0)
-                throw new Exception("a = 0");
+                throw new DivideByZeroException("a == 0");
 
-            return (c - b) / a;
+             return (double)(c - b) / (double)a;
         }
     }
 }

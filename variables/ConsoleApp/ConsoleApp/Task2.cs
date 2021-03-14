@@ -4,15 +4,13 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task2
+    public static class Task2
     {
-        public static (double, double) SwapAB(double a, double b)
+        public static void SwapAB(ref double a, ref double b)
         {
             double c = b;
             b = a;
             a = c;
-
-            return (a, b);
         }
     }
 }
