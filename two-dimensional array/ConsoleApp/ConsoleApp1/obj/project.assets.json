@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\kushk\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\two-dimensional array\\ConsoleApp\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
