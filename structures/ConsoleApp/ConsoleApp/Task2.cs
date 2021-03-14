@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task2
+    public static class Task2
     {
         static public int IdentifyQuarterOfPoint(double x, double y)
         {

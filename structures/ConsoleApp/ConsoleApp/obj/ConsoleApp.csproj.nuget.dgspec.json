@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kushk\\source\\repos\\structers\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\structures\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kushk\\source\\repos\\structers\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\structures\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\structers\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\structures\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\kushk\\source\\repos\\structers\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\structures\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\kushk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kushk\\source\\repos\\structers\\ConsoleApp\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\kushk\\source\\repos\\Dev-Ed-\\structures\\ConsoleApp\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kushk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

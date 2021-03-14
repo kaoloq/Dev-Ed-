@@ -11,3 +11,16 @@ C:\Users\kushk\source\repos\structers\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp
 C:\Users\kushk\source\repos\structers\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
 C:\Users\kushk\source\repos\structers\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
 C:\Users\kushk\source\repos\structers\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\kushk\source\repos\Dev-Ed-\structures\ConsoleApp\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache

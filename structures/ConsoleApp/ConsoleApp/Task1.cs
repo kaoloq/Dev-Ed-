@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task1
+    public static class Task1
     {
         static public double Count(double a, double b)
         {

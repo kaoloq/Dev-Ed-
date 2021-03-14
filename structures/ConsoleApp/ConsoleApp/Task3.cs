@@ -4,18 +4,18 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task3
+    public static class Task3
     {
-        static public double[] SortToBigger(double a, double b, double c)
+        static public double[] SortToBigger(double a = 7, double b = -4, double c = 10)
         {
-            if (a > b)
+            if (a > b && a > c)
             {
                 if (b > c)
                     return new double[] { c, b, a };
                 else
                     return new double[] { b, c, a };
             }
-            else if (b > c)
+            else if (b > c && b > a)
             {
                 if (a > c)
                     return new double[] { c, a, b };

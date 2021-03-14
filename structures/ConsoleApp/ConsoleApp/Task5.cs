@@ -4,16 +4,16 @@ using System.Text;
 
 namespace ConsoleApp
 {
-    class Task5
+    public static class Task5
     {
         public static string ConvertToLetter(int num)
         {
             //Пользователь вводит двузначное число. Выведите в консоль прописную запись этого числа.
             //Например при вводе “25” в консоль будет выведено “двадцать пять”.
 
-            if(num > 99 && num < 10)
+            if(num > 99 || num < 10)
             {
-                throw new Exception("Out of Range");
+                throw new ArgumentOutOfRangeException("Out of Range");
             }
 
             int teens = num / 10;
