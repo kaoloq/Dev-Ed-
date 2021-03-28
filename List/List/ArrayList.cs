@@ -119,7 +119,7 @@ namespace List
             Length--;
         }
 
-        public int GetAt(int index)
+        public int Get(int index)
         {
             if (index >= Length || index < 0)
             {
@@ -292,7 +292,7 @@ namespace List
             }
         }
 
-        public void RemoveAllElementsByValue(int value)
+        public void RemoveAllByValue(int value)
         {
             int[] array = new int[Length];
             int FixedLength = Length;

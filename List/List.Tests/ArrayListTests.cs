@@ -126,11 +126,11 @@ namespace List.Tests
         [TestCase(new int[] { 1, 2, 4, 3, 1, 0 }, 3, 3)]
         [TestCase(new int[] { 2, 3, 4, 5, 6 }, 1, 3)]
         [TestCase(new int[] { 2 }, 0, 2)]
-        public void GetAtTest(int[] array, int index, int expected)
+        public void GetTest(int[] array, int index, int expected)
         {
             ArrayList arrayList = new ArrayList(array);
 
-            int actual = arrayList.GetAt(index);
+            int actual = arrayList.Get(index);
 
 
             Assert.AreEqual(expected, actual);
@@ -139,10 +139,10 @@ namespace List.Tests
 
         [TestCase(new int[] { 1, 2, 4, 3, 1, 0 }, 10)]
         [TestCase(new int[] { 2, 3, 4, 5, 6 }, -20)]
-        public void GetAtWrongIndexShouldThrowIndexOutOfRangeException(int[] array, int index)
+        public void GetWrongIndexShouldThrowIndexOutOfRangeException(int[] array, int index)
         {
             ArrayList arrayList = new ArrayList(array);
-            Assert.Throws<IndexOutOfRangeException>(() => arrayList.GetAt(index));
+            Assert.Throws<IndexOutOfRangeException>(() => arrayList.Get(index));
         }
 
 
@@ -281,10 +281,10 @@ namespace List.Tests
         [TestCase(new int[] { 1, 2, 4, 1, 3, 1, 0, 1 }, 1, new int[] { 2, 4, 3, 0 })]
         [TestCase(new int[] { 2, 3, 4, 5, 6, 7 }, 1, new int[] { 2, 3, 4, 5, 6, 7 })]
         [TestCase(new int[] { }, 1, new int[] { })]
-        public void RemoveAllElementsByValueTest(int[] array, int value, int[] arrayExpected)
+        public void RemoveAllByValueTest(int[] array, int value, int[] arrayExpected)
         {
             ArrayList arrayList = new ArrayList(array);
-            arrayList.RemoveAllElementsByValue(value);
+            arrayList.RemoveAllByValue(value);
 
             ArrayList actual = arrayList;
 
