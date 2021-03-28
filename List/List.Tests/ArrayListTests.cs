@@ -5,10 +5,41 @@ namespace List.Tests
 {
     public class ArrayListTests
     {
+
+        [TestCase(new int[] { 1, 2, 4, 3, 1, 0 }, 5, 0)]
+        [TestCase(new int[] { 1, 2, 4, 3, 1, 0 }, 3, 3)]
+        [TestCase(new int[] { 2, 3, 4, 5, 6 }, 1, 3)]
+        [TestCase(new int[] { 2 }, 0, 2)]
+        public void GetByBracketsTest(int[] array, int index, int expected)
+        {
+            ArrayList arrayList = new ArrayList(array);
+
+            int actual = arrayList[index];
+
+
+            Assert.AreEqual(expected, actual);
+        }
+
+
+        [TestCase(new int[] { 1, 2, 3, 1, 0 }, 4, 2, new int[] { 1, 2, 4, 1, 0 })]
+        [TestCase(new int[] { 1, 2, 4, 3, 1 }, 0, 4, new int[] { 1, 2, 4, 3, 0 })]
+        [TestCase(new int[] { 2, 4, 5, 6 }, 3, 1, new int[] { 2, 3, 5, 6 })]
+        [TestCase(new int[] { 2 }, 4, 0, new int[] { 4 })]
+        public void SetByBracketsTest(int[] array, int value, int index, int[] arrayExpected)
+        {
+            ArrayList arrayList = new ArrayList(array);
+            arrayList[index] = value;
+
+            ArrayList actual = arrayList;
+            ArrayList expected = new ArrayList(arrayExpected);
+
+            Assert.AreEqual(expected, actual);
+        }
+
+
         [TestCase(new int[] { 1, 2, 4, 1, 3, 1, 0 }, 1, new int[] { 1, 2, 4, 1, 3, 1, 0, 1 })]
         [TestCase(new int[] { 2, 3, 4, 5, 6 }, 7, new int[] { 2, 3, 4, 5, 6, 7 })]
         [TestCase(new int[] { }, 1, new int[] { 1 })]
-        //public void AddTest(int[] array, int value, int[] arrayExpected)
         public void AddTest(int[] array, int value, int[] arrayExpected)
         {
             ArrayList arrayList = new ArrayList(array);
@@ -389,14 +420,29 @@ namespace List.Tests
         {
             ArrayList arrayList = new ArrayList(array);
 
-            arrayList.SortUp(0, arrayList.Length);
+            arrayList.SortUp();
 
             ArrayList actual = arrayList;
-
             ArrayList expected = new ArrayList(arrayExpected);
 
             Assert.AreEqual(expected, actual);
         }
 
+
+        [TestCase(new int[] { 0, 1, 3, -5, 7, 2, 8, -3 }, new int[] { 8, 7, 3, 2, 1, 0, -3, -5 })]
+        [TestCase(new int[] { 0, 0, 0, 0, 0 }, new int[] { 0, 0, 0, 0, 0 })]
+        [TestCase(new int[] { 256, -25, 3, 0, 0 }, new int[] { 256, 3, 0, 0, -25 })]
+        [TestCase(new int[] { }, new int[] { })]
+        [TestCase(new int[] { 1 }, new int[] { 1 })]
+        public void SortDownTests(int[] array, int[] arrayExpected)
+        {
+            ArrayList arrayList = new ArrayList(array);
+            arrayList.SortDown();
+
+            ArrayList actual = arrayList;
+            ArrayList expected = new ArrayList(arrayExpected);
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

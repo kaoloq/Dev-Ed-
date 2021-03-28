@@ -237,47 +237,15 @@ namespace List
             return indexOfMax;
         }
         
-        public void SortUp(int low, int high)
+        public void SortUp()
         {
-            Random random = new Random();
-            int index = random.Next(low, high);
-
-            if (high - low <= 1)
-            {
-                return;
-            }
-            
-                for (int i = low; i < high; i++)
-                {
-                    if (_array[i] >= _array[index] && i < index)
-                    {
-                        int tmp = _array[i];
-                        _array[i] = _array[index];
-                        _array[index] = tmp;
-                        index = i;
-                        continue;
-                    }
-
-                    if (_array[i] < _array[index] && i > index)
-                    {
-                        for (int j = i; j > index; j--)
-                        {
-                            int tmp = _array[j];
-                            _array[j] = _array[j - 1];
-                            _array[j - 1] = tmp;
-                        }
-                        index++;
-                    }
-                }
-                SortUp(low, index);
-                SortUp(index + 1, high);
-            
-
+            SortUpInClass(0, Length);
         }
+
         
         public void SortDown()
         {
-
+            SortDownInClass(0, Length);
         }
 
         public void RemoveFirstElementByValue(int value)
@@ -422,6 +390,76 @@ namespace List
             }         
         }
 
+        private void SortUpInClass(int low, int high)
+        {
+            Random random = new Random();
+            int index = random.Next(low, high);
 
+            if (high - low <= 1)
+            {
+                return;
+            }
+
+            for (int i = low; i < high; i++)
+            {
+                if (_array[i] >= _array[index] && i < index)
+                {
+                    int tmp = _array[i];
+                    _array[i] = _array[index];
+                    _array[index] = tmp;
+                    index = i;
+                    continue;
+                }
+
+                if (_array[i] < _array[index] && i > index)
+                {
+                    for (int j = i; j > index; j--)
+                    {
+                        int tmp = _array[j];
+                        _array[j] = _array[j - 1];
+                        _array[j - 1] = tmp;
+                    }
+                    index++;
+                }
+            }
+            SortUpInClass(low, index);
+            SortUpInClass(index + 1, high);
+        }
+
+        private void SortDownInClass(int low, int high)
+        {
+            Random random = new Random();
+            int index = random.Next(low, high);
+
+            if (high - low <= 1)
+            {
+                return;
+            }
+
+            for (int i = low; i < high; i++)
+            {
+                if (_array[i] <= _array[index] && i < index)
+                {
+                    int tmp = _array[i];
+                    _array[i] = _array[index];
+                    _array[index] = tmp;
+                    index = i;
+                    continue;
+                }
+
+                if (_array[i] > _array[index] && i > index)
+                {
+                    for (int j = i; j > index; j--)
+                    {
+                        int tmp = _array[j];
+                        _array[j] = _array[j - 1];
+                        _array[j - 1] = tmp;
+                    }
+                    index++;
+                }
+            }
+            SortDownInClass(low, index);
+            SortDownInClass(index + 1, high);
+        }
     }
 }
